@@ -1,10 +1,13 @@
 #Set Driven Key script for connecting Follow attributes to constraints.
+
 import maya.cmds as cmds
 
 #Finds how many enum values there are for the Follow attribute.
+
 weights=[0,1,2,3]
 
 #Set the values for each weight attribute on the parent constraint.
+
 for i in weights:
 
     #Sets the value of the currently selected weight attribute to 1
