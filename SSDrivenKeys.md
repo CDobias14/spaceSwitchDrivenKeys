@@ -7,6 +7,7 @@ weights=[0,1,2,3]
 
 #Set the values for each weight attribute on the parent constraint
 for i in weights:
+
     #Sets the value of the currently selected weight attribute to 1
     cmds.setDrivenKeyframe(at='w%i'%i, cd='L_arm_IK_PV_CTRL.follow', dv=i, v=1)
     
